@@ -1,2 +1,6 @@
 server:
   port: 8080
+
+redis:
+  connection:
+    host: 172.17.0.2
