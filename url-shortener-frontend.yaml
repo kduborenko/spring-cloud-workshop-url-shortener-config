@@ -1,2 +1,7 @@
 server:
   port: 8080
+
+logging:
+  level:
+    com.netflix.loadbalancer.LoadBalancerContext: DEBUG
+    org.kduborenko.UrlShortenerClient: DEBUG

@@ -1,4 +1,6 @@
 eureka:
+  instance:
+    preferIpAddress: true
   client:
     serviceUrl:
       defaultZone: http://spring-cloud-workshop-service-discovery:8761/eureka/
