@@ -1,6 +1,3 @@
-server:
-  port: 8080
-
 redis:
   connection:
     host: spring-cloud-workshop-redis
