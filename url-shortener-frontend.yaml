@@ -1,4 +1,10 @@
+hystrix:
+  threadpool:
+    default:
+      coreSize: 100
+      queueSizeRejectionThreshold: 50
 logging:
   level:
+    com.netflix.loadbalancer.DynamicServerListLoadBalancer: DEBUG
     com.netflix.loadbalancer.LoadBalancerContext: DEBUG
     org.kduborenko.UrlShortenerClient: DEBUG
