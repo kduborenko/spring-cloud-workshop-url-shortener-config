@@ -1,8 +1,3 @@
-hystrix:
-  threadpool:
-    default:
-      coreSize: 100
-      queueSizeRejectionThreshold: 50
 logging:
   level:
     com.netflix.loadbalancer.DynamicServerListLoadBalancer: DEBUG

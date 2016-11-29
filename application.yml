@@ -1,3 +1,7 @@
+feign:
+  hystrix:
+    enabled: false
+
 eureka:
   instance:
     preferIpAddress: true
